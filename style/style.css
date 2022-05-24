@@ -1,0 +1,404 @@
+body {
+  margin: 0px;
+}
+
+#navBar {
+  background-color: #f2f2f2;
+  border-bottom: 10px solid #b14949;
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.les3 {
+  float: right;
+  padding-right: 5%;
+}
+
+.les3 li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.les3 li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.row {
+  margin-right: 0px !important;
+}
+
+#navBar p {
+  font-size: 20px;
+  font-family: monospace;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+#navBar img {
+  width: 19%;
+}
+
+.bouttonBoutique {
+  margin-top: 20px;
+  border-color: #b14949;
+  color: #b14949;
+  border-radius: 200px;
+  border-top-width: 1px;
+  padding-top: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 5px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+/* IMAGE GUITARE */
+
+header {
+  min-height: 202vh;
+  width: 100%;
+  background-image: url(../images/bakground.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+#texteGuitare {
+  color: white;
+}
+
+.borderBot {
+  border-bottom: solid 20px white;
+  border-bottom-width: 9px;
+  padding-top: 38px;
+  width: 13%;
+  margin-right: 83px;
+  position: relative;
+  bottom: 8px;
+  left: 65px;
+}
+
+.texteMeilleurRiff {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.texteGuitare {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.bougerLeTexte {
+  padding-top: 660px;
+  text-align: center;
+}
+
+.displayF {
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+
+/* Bandeau rouge*/
+
+#bandeauRouge {
+  background-color: #b14949;
+  color: white;
+  font-family: monospace;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-left: 50px;
+  letter-spacing: 5px;
+}
+
+/* RESUME PAGE 2*/
+
+#resume {
+  display: flex;
+  padding: 50px;
+}
+
+.left-content {
+  flex: 1;
+  padding-right: 150px;
+  padding-left: 100px;
+}
+
+.left-content p {
+  text-align: justify;
+  word-spacing: 5px;
+}
+
+.left-content h2 {
+  font-size: 18px;
+  word-spacing: 5px;
+}
+
+.cadreTitreUN {
+  display: flex;
+}
+
+.redBorderUn {
+  border-bottom: solid 20px #b14949;
+  border-bottom-width: 7px;
+  width: 55%;
+  position: relative;
+  left: 9px;
+}
+
+.cadreTitreDeux {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.redBorderDeux {
+  border-bottom: solid 20px #b14949;
+  border-bottom-width: 7px;
+  width: 59%;
+  position: relative;
+  bottom: 1px;
+}
+
+.cadreTitreTrois {
+  display: flex;
+}
+
+.redBorderTrois {
+  border-bottom: solid 20px #b14949;
+  border-bottom-width: 7px;
+  width: 61%;
+  position: relative;
+  left: 14px;
+  bottom: 1px;
+}
+
+.titleEndAlign {
+  margin-left: 10px;
+}
+
+.right-content {
+  flex: 1;
+}
+
+.blockImageUn {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.imageUn img {
+  padding-right: 5px;
+  width: 100%;
+}
+
+.imageDeux img {
+  width: 100%;
+  padding-left: 5px;
+}
+
+.imageTrois img {
+  width: 100%;
+}
+
+/* NOS GRATTES PAGE 3*/
+
+#bandeauRougeNosGrattes {
+  background-color: #b14949;
+  color: white;
+  text-align: end;
+  font-family: monospace;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-right: 50px;
+  letter-spacing: 5px;
+}
+
+.displayGuitStock {
+  display: flex;
+  justify-content: center;
+}
+
+.cadreTitrePageTrois {
+  display: flex;
+  padding-top: 5%;
+  flex-direction: column;
+}
+
+.cadreTitrePageTrois h2 {
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: none;
+}
+
+.redBorderPageTrois {
+  border-bottom: solid 20px #b14949;
+  border-bottom-width: 10px;
+  width: 20%;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+
+.paragrapheGuitaresEnStock {
+  text-align: center;
+  padding-top: 2%;
+}
+
+/* IMAGES GUITARES PAGE 3*/
+
+#nosGrattesPageTrois {
+  padding-bottom: 10%;
+}
+
+.imagesGuitares {
+  display: flex;
+  padding-top: 5%;
+}
+
+.guitUn img {
+  width: 100%;
+}
+
+.guitDeux img {
+  width: 100%;
+}
+
+.guitTrois img {
+  width: 100%;
+}
+
+.guitQuatre img {
+  width: 100%;
+}
+
+.textePrix {
+  text-align: center;
+  font-weight: bold;
+}
+
+.textePrix2 {
+  text-align: center;
+}
+
+.prixPromo {
+  display: flex;
+  padding-left: 30%;
+}
+
+.p500 {
+  text-decoration: line-through;
+}
+.p400 {
+  padding-left: 15%;
+}
+
+.boiteBoutton {
+  text-align: center;
+}
+
+.bouttonAcheterRouge {
+  background-color: #b14949;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 10%;
+  border-width: 0px;
+}
+
+/* BANDEAU ROUGE CONTACT*/
+
+#bandeauRougeContact {
+  background-color: #b14949;
+  color: white;
+  font-family: monospace;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-left: 50px;
+  letter-spacing: 5px;
+}
+
+/* CONTACT*/
+
+.cadreTitrePageQuatre {
+  display: flex;
+  padding-left: 30%;
+  padding-top: 5%;
+}
+
+.cadreTitrePageQuatre h2 {
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: none;
+  padding-left: 5%;
+}
+
+/* form */
+
+.formDimensions {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding: 5%;
+}
+
+.displayForm {
+  display: flex;
+  gap: 30px;
+  padding-top: 5%;
+}
+
+.textArea {
+  padding-top: 5%;
+}
+
+.red {
+  border: 1px solid #b14949;
+  border-radius: 5px;
+}
+
+.endBoutton {
+  text-align: center;
+  padding-top: 10%;
+}
+
+/* MEDIA QUERRY*/
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 800px) {
+  #resume {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #resume p {
+    color: #b14949;
+  }
+
+  .left-content {
+    padding: 5% 0px;
+  }
+
+  .imagesGuitares {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cadreTexteGuitUn {
+    padding-bottom: 10%;
+  }
+
+  .cadreTexteGuitDeux {
+    padding-bottom: 10%;
+  }
+
+  .cadreTexteGuitTrois {
+    padding-bottom: 10%;
+  }
+}
